@@ -3,7 +3,7 @@
 This repository contains a dockerized version of Xyce 
 
 
-## How to built
+## How to built (will take a while)
 ```
 ./build.bat
 ```
