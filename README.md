@@ -1,4 +1,4 @@
-# Zeno-pyspice
+# Xyce 7.8
 
 This repository contains a dockerized version of Xyce 
 
