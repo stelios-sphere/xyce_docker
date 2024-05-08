@@ -1,0 +1,5 @@
+if(NOT Xyce_PARALLEL_MPI)
+     add_subdirectory(CircuitPKG)
+endif()
+add_subdirectory(IOInterfacePKG)
+add_subdirectory(UtilityPKG)

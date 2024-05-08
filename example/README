@@ -1,0 +1,6 @@
+#docker run --rm -v $(pwd)/:/app/run/ 015042944066.dkr.ecr.us-west-2.amazonaws.com/dbr:v1.0
+#dbr:v1.0
+
+#docker run --rm -v $(pwd)/:/ stevenmburns/xyce_small_ubuntu bash -c "/usr/local/bin/Xyce --help"
+docker run --rm -v $(pwd)/:/ stevenmburns/xyce_small_ubuntu bash -c "/usr/local/bin/Xyce cmos.cir"
+docker run -i -t -v $(pwd)/:/opt  stevenmburns/xyce_small_ubuntu /bin/bash
